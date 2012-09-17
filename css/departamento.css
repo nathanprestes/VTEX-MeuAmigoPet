@@ -1,0 +1,30 @@
+/*IE7*/
+.departamento .conteudo,
+.categoria .conteudo{*margin-bottom:250px;}
+/*Oculto*/
+.main div + p + .sub,
+.top .pages,
+.searchResultsTime,
+.filterBy,
+.compare,
+/*Pagina departamento*/
+.departamento .searchResultsTime,
+.departamento .sub,
+.resultado-busca-filtro{display:none;}
+
+.pager{clear:both;}
+
+/*busca-vazio*/
+.busca-vazio p{padding:15px; font-weight:bold; font-size:13px; color:#444;}
+.notTitulo{padding:10px 45px !important; color:#ec8a00 !important;}
+.notDicas{padding-bottom:0 !important;}
+.notLista{padding:5px; margin:0 10px;}
+.notLista li{font-weight:bold; margin:5px 0; line-height:17px; font-size:13px; color:#444;}
+
+/*Botoes*/
+.btnotEncontrou,
+.btquerPromocao{background:url("/arquivos/bts_informacoes.jpg") no-repeat; float:left; font-size:0; height:44px; text-indent:-9000px; width:177px; margin:0 10px;}
+.btnotEncontrou{background-position:0 -87px}
+.btquerPromocao{margin:0 3px !important; background-position:0 -132px}
+
+.refino-marca label {display:block; padding:3px 0;}

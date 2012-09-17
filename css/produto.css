@@ -1,0 +1,344 @@
+/*Caminho*/
+.caminho {padding-top:5px;}
+.caminho ul{margin:10px; padding:0;}
+.caminho li{display:inline; padding:0 15px 0 0;background: url("/arquivos/marcador_caminho.jpg") no-repeat right 6px; margin:0 0 0 5px;}
+.caminho a{color:#9e9e9e; font-size:12px;}
+.caminho .last{background:none;}
+.caminho .last strong{font-weight:normal;}
+.caminho .last a{color:#000;}
+
+/*fotoProduto*/
+.fotoProduto{float:left; width:425px;position:relative;}
+#include{float:right; border:1px solid #ececec; padding:3px; width:331px; height:331px;}
+.thumbs{position:absolute;}
+.thumbs li{border:1px solid #ececec; padding:3px; margin:10px 0px; width:71px; height:71px;}
+.thumbs li:first-child{margin-top:0;}
+
+/*informacoesProduto*/
+.informacoesProduto{float:right; width:540px;}
+
+/*tituloProduto*/
+.tituloProduto{font-size:20px; color:#3c3c3c; font-weight:bold; padding:5px; margin:3px;}
+
+/*codigoProduto*/
+.codigoProduto,
+.skuReference{color:#9e9e9e; font-size:12px; margin:0 0 7px 7px; float:left;}
+
+/*avaliacaoProduto*/
+.avaliacaoProduto{clear:both; margin:5px; padding:3px;}
+/*Oculto*/
+.preco-a-vista,
+.avaliacaoProduto strong{display:none!important;}
+.avaliacaoProduto .rating-produto{display:block; margin:0;}
+
+/*formasPagamento*/
+.formasPagamento{margin:5px; padding:3px;}
+.valor-de,
+.valor-de strong,
+.valor-por{font-size:12px; color:#9e9e9e; font-weight:normal; font-style:normal;}
+.valor-por strong{font-size:20px; color:#4047a1; font-weight:bold;}
+.valor-dividido,
+.valor-dividido strong{font-size:12px; color:#f89204; font-weight:normal; font-style:normal;}
+/*Oculto*/
+.economia-de{display:none;}
+
+/*Botao frete*/
+.btFrete{float:left; margin:10px 0;}
+.btFrete p{background:url("/arquivos/sprite.png") no-repeat -672px -66px; width:104px; height:15px; display:block; font-size:0; text-indent:-9000px;}
+
+/*Opções de parcelamento*/
+.paymentCalcEnt{clear:both;}
+.paymentCalcEnt .openProductPayment,
+.calcFrete a{color:#3c3c3c; font-size:11px; text-decoration: underline; line-height:15px;}
+.paymentCalcEnt .openProductPayment:hover,
+.calcFrete .frete a, .calcFrete a:hover{text-decoration:none;}
+.calcFrete .frete a{color:#fff;}
+/*Botão comprar*/
+.btComprar{width:360px; float:right; margin-top:20px; position:relative; padding-bottom:5px;}
+.buy-button{width:156px; height:40px; background:url("/arquivos/sprite.png") no-repeat -620px 0; font-size:0; text-indent:-9000px; float:right;}
+/*Produto esgotado*/
+.notifyme{float:left; left:-163px; position:relative; width:521px;padding-top: 10px;}
+.notifymetitle{font-size:20px; color:#d13f40;}
+.notifyme fieldset{background:#f8f8f8; padding:20px; border:1px solid #d9d9d9;}
+.notifyme fieldset p{font-size:11px; color:#3c3c3c;}
+.notifyme input[type=text]{background:#efefef; border-right:1px solid #d9d9d9; border-bottom:1px solid #d9d9d9; border-top:none; border-left:none; display:block; height:20px; line-height:22px; margin-top:5px; width:265px; padding-left:3px;}
+/*Botao*/
+.notifyme-button-ok{height:59px; position:absolute; right:13px; top:73px; width:195px; background:url("/arquivos/sprite.png") no-repeat -589px -169px; border:0 none; text-indent:-9000px; font-size:0;}
+
+/*skuTamanho*/
+.skuTamanho{width:500px; background:#fafafa; border:1px solid #d9d9d9; clear:both; padding:10px; margin-top:10px;}
+.skuTamanho .specification{font-weight: bold;padding-left: 9px;padding-top: 7px;}
+.skuTamanho label{margin-left:8px;}
+.skuTamanho input{margin-left:25px;}
+.skuTamanho input:first-child{margin-left:10px;}
+.skuTamanho input.skuespec_Peso_opcao_unico, 
+.skuTamanho label.skuespec_Peso_opcao_unico, 
+.skuTamanho input.skuespec_Tamanho_opcao_unico, 
+.skuTamanho label.skuespec_Tamanho_opcao_unico,
+.skuTamanho input.skuespec_Cor_opcao_unico,.skuTamanho input.skuespec_Cor_opcao_unica,
+.skuTamanho label.skuespec_Cor_opcao_unico, .skuTamanho label.skuespec_Cor_opcao_unica,
+.skuTamanho label.skuespec_Volume_opcao_unico,
+.skuTamanho input.skuespec_Volume_opcao_unico{display:none;}
+
+/*disponibilidade*/
+.disponibilidade{clear:both; margin-top:10px;}
+ p{display:inline; margin-right:8px;}
+.disponibilidade p strong{color:#3c3c3c; font-size:11px; font-weight:normal;}
+.disponibilidade span{font-size:11px; color:#9e9e9e; display:inline; margin-right:5px;}
+
+/*redesSociais*/
+.redesSociais{clear:both; display:table; margin:10px 0 0 0; padding:3px;}
+.redesSociais div{float:left;}
+.googleMais{width:65px; margin:0;}
+.tweet{margin:0 0 0 2px; width:110px;}
+.face{margin:0; width:63px;}
+.btBlog{float:left; margin:0 8px 0 0; position: relative;}
+.enviarAmigo{margin:1px 5px 0 0; width:132px; height:19px;}
+.enviarAmigo input{background:url("/arquivos/sprite.png") no-repeat -644px -43px; width:132px; height:19px; border:none; text-indent:-9000px; font-size:0; border:0 none; position:relative;}
+
+/*Titulo das seçoes*/
+.produtosRelacionados .prateleira > h2,
+.comprouTambem .prateleira > h2,
+.viuTambem .prateleira > h2,
+.compreJunto h4,
+.lista-abas,
+.avaliacoes h4,
+.videos h4 {background:url( "/arquivos/sprite_title.png") repeat-x 0 -59px; height:15px; font-size:14px; font-weight:bold; padding:5px 10px; color:#444;}
+
+/*compreJunto*/
+.compreJunto{display:table; width:980px; padding-top:10px;}
+.compreJunto table{margin:20px 0; width:980px; border-bottom: 1px solid #CCC;}
+/*Oculto*/
+.compreJunto hr{display:none;}
+
+/*itemA / itemB*/
+.compreJunto .itemA,
+.compreJunto .itemB{width:200px; text-align:center;}
+.compreJunto .itemA h3,
+.compreJunto .itemB h3{margin-top:8px;}
+.compreJunto .itemA h3 a,
+.compreJunto .itemB h3 a{color:#737373; font-size:12px; font-weight:bold;}
+/*plus / equal*/
+.plus,
+.equal{font-size:30px; color:#f89204; padding:30px 5px;}
+/*buy*/
+.buy{font-size:11px; color:#4047a1; padding:25px 5px; margin:3px; line-height:15px; font-weight:bold;}
+.buy strong + strong{font-size:20px;}
+.buy strong + strong + strong{font-size:11px;}
+.comprar-junto a{background:url( "/arquivos/sprite.png") no-repeat -355px -29px; display:block; font-size:0; height:27px; text-indent:-9000px; width:129px; margin-top:10px;}
+/*Oculto*/
+.buy .more{display:none;}
+
+/*lista-abas*/
+.abas{display:table; margin-top:10px; width:980px;}
+.lista-abas li{float:left; margin:0 20px; color:#9e9e9e; font-weight:normal; cursor:pointer;}
+.lista-abas .active{font-weight:bold; color:#000;}
+.abaConteudo{padding:20px; min-height:150px; color:#737373; font-size:12px; line-height:16px;}
+/*Video Oculto*/
+.abas table,
+.abas th,
+.abas .Video,
+.abas h4{display:none;}
+.abas .Especificacoes-Tecnicas + table{display:block !important;}
+
+/*Videos*/
+/*Oculto*/
+.Especificacoes-Tecnicas,
+.videos .Especificacoes-Tecnicas + table,
+.videos th{display:none;}
+
+.videos{width:980px; display:table; margin-top:10px;}
+.videos table{margin:20px 0 0 20px;}
+.videos object{height:auto; display:table;}
+
+/*produtosRelacionados*/
+.comprouTambem ,
+.produtosRelacionados,
+.viuTambem{display:table; width:980px; margin-top:10px;}
+
+.comprouTambem  .jcarousel-container,
+.produtosRelacionados .jcarousel-container,
+.viuTambem .jcarousel-container{width:895px; border:none; background:none;}
+
+.comprouTambem  .jcarousel-clip,
+.produtosRelacionados .jcarousel-clip,
+.viuTambem .jcarousel-clip {width:890px;}
+
+.comprouTambem  .jcarousel-clip .jcarousel-item,
+.produtosRelacionados .jcarousel-clip .jcarousel-item,
+.viuTambem .jcarousel-clip .jcarousel-item {margin: 2px;width:220px;}
+
+.comprouTambem  .jcarousel-clip .jcarousel-item:hover,
+.produtosRelacionados .jcarousel-clip .jcarousel-item:hover,
+.viuTambem .jcarousel-clip .jcarousel-item:hover {margin:1px;}
+
+/*avaliacoes*/
+.avaliacoes{display:table; width:980px; margin-top:10px;}
+/*Oculto*/
+
+
+/*Botao*/
+.publique .bt{background:url( "/arquivos/sprite.png") no-repeat -447px -56px; display:block; width:100px; height:27px; text-indent:-9000px; font-size:0; margin-left:20px; *margin-top:8px;}
+
+/*Lista presentes*/
+.listaPresente{float:right; width:375px; text-align:right;padding: 0 0 10px 0;}
+.listaPresente h3{color:#FAA71B; font-size:14px; font-weight:normal;}
+.listaPresente a{color:#4047A1; text-decoration:underline; margin-right:5px; line-height:20px;}
+.listaPresente span{font-size:11px; color:#9E9E9E;}
+.giftlistinsertsku-message{color:#FAA71B; font-weight:bold; display:block;}
+
+/*Informações*/
+.dados strong{font-size:12px; color:#4047a1; border-right:1px solid #737373; padding-right:5px;}
+.dados span{font-size:12px; color:#737373; line-height:16px; padding:0 0 0 5px; margin:3px; border-left:1px solid #737373;}
+.dados strong + span{border:none; margin-left:0;}
+.rating-wrapper .rating{display:block;}
+.resenhas{margin:15px 25px;}
+.opt-texto{border-bottom:1px solid #ccc; padding:10px 0; margin:10px 0;}
+.opt-texto p{color:#737373; font-size:12px; line-height:16px; }
+/*IE7*/
+.quem{*float:left; *width:100%;}
+
+/*POPUPS*/
+/*Trickbox Opçoes parcelamento*/
+/*Janela*/
+.productPayment {position:fixed; z-index:102; top:10%; left:40%;  border-radius:5px; -moz-border-radius:5px; -webkit-border-radius:5px; padding:5px; background:#efefef; display:none;}
+
+/*Botao fechar*/
+.fechar{position:absolute; top:10px; right:30px; background:url("/arquivos/btExcluir.gif"); height:15px; width:16px; text-indent:-9000px; font-size:0; }
+/*Oculto*/
+.ttlOpcoes{display:none;}
+
+/*Calculo frete Trick box*/
+/*Janela*/
+#calculoFrete{position:fixed; z-index:102; top:20%; left:40%;  border-radius:5px; -moz-border-radius:5px; -webkit-border-radius:5px; padding:5px; background:#efefef; display:none; width:400px;}
+/*Topo*/
+#calculoFrete .header{ background:url( "/arquivos/sprite_title.png") repeat-x 2px -200px; height:15px; padding:5px 0; width:400px;}
+#calculoFrete .header h2{font-size:14px; font-weight:bold; padding:0 8px; color:#444; margin:0; float:left;}
+/*Botao fechar*/
+#calculoFrete .close,{float:right; margin:0 7px;}
+#calculoFrete .close a{background:url("/arquivos/btExcluir.gif") no-repeat; height:15px; width:16px; text-indent:-9000px; font-size:0; display:block;}
+
+/*prefixo*/
+.prefixo{padding:15px 8px; line-height:17px; color:#3c3c3c; font-size:13px; display:inline-block;}
+.prefixo .freight-zip-box{width:151px; height:23px; border:1px solid #777; line-height:16px;}
+/*Botao*/
+.frete-calcular .bt{background:url( "/arquivos/sprite.png") no-repeat -239px -56px; width:85px; height:27px; text-indent:-9000px; font-size:0; border:0 none;}
+/*cep-busca*/
+.cep-busca{display:block;}
+.cep-busca a{color:#521f25; text-decoration:underline; font-size:11px; padding:5px 10px;}
+.cep-busca a:hover{text-decoration:none;}
+
+.cep-invalido {color: #FF0000;padding: 10px;text-align: center;}
+
+/*Tabela*/
+#calculoFrete table{width:380px;}
+#calculoFrete th{color:#961313; text-align:left; padding:5px;}
+#calculoFrete td{font-size:14px; color:#777; padding:5px 3px;}
+#calculoFrete tr:nth-child(2n+2){background-color: #e4e0e1;}
+/*Botao fechar*/
+#calculoFrete .close{float:right; margin:0 5px 0 0;} 
+.calcFrete .fechar{display:none !important;}
+
+/*Oculto*/
+#calculoFrete .footer,
+#calculoFrete .header h1{display:none !important;}
+
+/*Indique para um amigo*/
+/*Controle Oculto*/
+.controleAmigo{visibility:hidden; position:absolute; left:-5000px;}
+.popIndiqueamigo{background:url( "/arquivos/sprite_title.png") repeat-x 2px -200px; height:15px; padding:5px 10px; width:380px;}
+.popIndiqueamigo #TB_ajaxWindowTitle{font-size:14px; font-weight:bold; padding:0 15px; color:#444; }
+.popIndiqueamigo #TB_closeWindowButton{position:absolute; top:-16px; right:8px;}
+#refer-a-friend-form{clear:both; padding:5px; width:auto; margin:0 15px;}
+#refer-a-friend-form input[type="text"]{width:151px; height:18px; border:1px solid #777; line-height:16px;}
+#refer-a-friend-form label{color:#3c3c3c; line-height:16px; font-weight:bold; padding:3px; display:block;}
+#refer-a-friend-form span {display:block;color:#ff0000;font-size:11px;}
+#refer-a-friend-form legend{color:#961313; line-height:15px; font-weight:bold; padding:3px; display:block; font-size:11px;}
+#fldMessage{clear:both;}
+#refer-a-friend-form textarea{width:314px; height:60px; border:1px solid #777; line-height:16px;}
+#refer-a-friend-form > p {color: #3C3C3C;display: block;font-size: 16px;font-weight: bold;text-align: center;padding:5px 0;}
+#refer-a-friend-form > #btnReferMoreFriends {margin:20px 85px;}
+#refer-a-friend-form > #btnFechar {display:none;}
+
+#TB_ajaxContent{width:auto !important; display:table;}
+/*Pessoa*/
+#fldYourData{float:left;}
+/*Amigo*/
+#fldFriendsData{float:left; margin-left:10px;}
+/*Botao*/
+#btnEnviar{margin:5px 118px 0 118px; background:url("/arquivos/sprite.png") no-repeat -350px 0; width:86px; height:28px; border:0 none; text-indent:-9000px; font-size:0;}
+/*Oculto*/
+#div-title,
+#btnAdicionarAmigos,
+#btnCancelar{display:none;}
+
+/* Publique sua opinião */
+.ver-todos-comentarios,
+.avaliacao .rating li > span,
+.avaliacao p.media {display:none;}
+.voteRatingBar {float: left;height: 15px;width: 250px;background:#e5e5e5;margin:0 5px;display:block!important}
+.voteRatingBar span {height: 15px;background:#fb9d21;display: block;}
+.avaliacao {padding:10px;}
+div.rating {margin:5px}
+.rating-demonstrativo {margin:0px!important}
+.media {padding:0 0 5px 0}
+.voteRatingStar {float: left;margin:0px;}
+
+ul.rating {padding:10px 0;float:left;}
+ul.rating li {display:block;height: 25px;}
+.emptyRatingStar,
+.filledRatingStar{float:left;margin:0 auto;}
+
+.avaliacao .opt {clear:both;}
+.rating-avalie-wrapper {margin-top:10px;}
+.avaliacao #opcoes-avalie {padding-top:10px;}
+.avaliacao #opcoes-avalie p {display:none;}
+.avaliacao #opcoes-avalie label,
+.avaliacao #opcoes-avalie input {margin:3px 0;}
+.avaliacao .avalie-produto {float:left;margin-left:150px;width:160px;}
+/*Overlay*/
+#publishUserReview .footer{position:fixed; z-index:100; top:0px; left:0px; height:100%; width:100%; background:#000; opacity:.4;  filter:alpha(opacity=40); -moz-opacity:0.4; margin:0;}
+/*Janela*/
+#publishUserReview .header {font-family:"Arial", Verdana, Sans-Serif; position:fixed; border-radius:5px; -moz-border-radius:5px; -webkit-border-radius:5px; padding:5px; background:#efefef; z-index: 102;   text-align:left; top:50%; left:50%; width:400px; height:255px; margin:-165px 0 0 -190px;}
+/*Titulo*/
+#publishUserReview .header h2{background:url("/arquivos/sprite_title.png") no-repeat 2px -200px; height:15px; padding:5px 10px; width:380px;}
+/*Botao fechar*/
+#publishUserReview .header .close{background:url("/arquivos/btExcluir.gif") no-repeat; height:15px; width:16px; position:absolute; right:10px; top:10px;}
+#publishUserReview .header .close a{display:block; height:16px; text-indent:-9999em; width:15px;}
+/*Conteudo*/
+#publishUserReview .content{position:relative;}
+/*Paragrafo*/
+#publishUserReview .opiniaoInfo{color:#3c3c3c; font-size:12px; left:10px; position:absolute; top:12px;}
+/*cachorros*/
+#publishUserReview .ranking ul{left:10px; list-style:none; position:absolute; top:45px;}
+#publishUserReview .opiniaoRating > div{float:left; margin:4px 0 0 0;}
+.ratingStar{background:url(/arquivos/rating_stars.png) -16px -64px no-repeat; display:block; height:16px; margin:0 6px 0 0; text-indent: -999em; width:16px;}
+.filledRatingStar {background-position:0 -16px;}
+.emptyRatingStar, .filledRatingStar {float:left; height:16px; width:16px;}
+/*Formulario*/
+/*Fieldset*/
+#publishUserReview .opiniao{padding:67px 0 0 0;}
+#publishUserReview .opiniao label{color:#3c3c3c; font-weight:bold; line-height:16px; display:block; padding:0 0 0 10px; text-transform:capitalize;}
+#publishUserReview .opiniao .fitext{width:350px; height:18px; border:1px solid #777; line-height:16px; margin:1px 10px;}
+#publishUserReview .opiniao textarea{width:350px; height:60px; border:1px solid #777; line-height:16px; margin:1px 10px;}
+/*Botao*/
+#publishUserReview .avaliar{margin:5px 155px;display:block;}
+#publishUserReview .avaliar a{background:url("/arquivos/sprite.png") no-repeat -350px 0; width:86px; height:28px; border:0 none; text-indent:-9000px; font-size:0;display:block;}
+
+/* ie6 hack */
+.formUserComment {position: absolute; margin-top: expression(0 - parseInt(this.offsetHeight / 2) + (TBWindowMargin = document.documentElement && document.documentElement.scrollTop || document.body.scrollTop) + 'px');}
+
+/*Oculto*/
+#publishUserReview .footer .close,
+#publishUserReview .header h1, 
+#publishUserReview .aviso-resenha,
+#publishUserReview .opiniaoRating > div > label,
+#publishUserReview .fDivulgaEmail,
+#publishUserReview .ratingTitulo,
+.historicoNavegacao{display:none;}
+
+/* ZOOM */
+.jqZoomPup {background:#FFFFFF; display: block !important; border:1px solid #C4C4C4; cursor:crosshair; opacity:0.6; overflow:hidden; z-index:10;}
+.jqZoomPup img {border:0 none;}
+.preload {-moz-opacity:0.8; opacity:0.8; filter:alpha(opacity = 80); border:1px solid #CCC; background:#FFF url(/arquivos/ajax-loader.gif) center center no-repeat; z-index:110; position:absolute; top:0px; left:0px; width:100%; height:100%;}
+.jqZoomWindow { background: #fff; box-shadow: 0 1px 2px #191919;  color: #fff; display:block !important; border:1px solid #f2f2f2; height: 330px !important; margin: -2px 0 0 0; top:218px; width:540px !important; border:solid 1px #cecece;}

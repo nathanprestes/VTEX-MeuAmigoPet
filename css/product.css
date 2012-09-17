@@ -1,0 +1,1184 @@
+.formUserComment { /* ie6 hack */
+position: absolute;
+margin-top: expression(0 - parseInt(this.offsetHeight / 2) + (TBWindowMargin = document.documentElement && document.documentElement.scrollTop || document.body.scrollTop) + 'px');
+}
+/*---Caixa--*/
+.caixa{
+	float:left;
+	height:auto;
+	display:table;
+	
+}
+/*Caminho links*/
+.bread-crumb{
+	background:url(/Control/ArquivoExibir.aspx?NomeArquivo=barra_top2.jpg) no-repeat;
+	width:980px;
+	height:21px;
+	float:left;
+	margin:5px 0;
+	padding:0;
+}
+.bread-crumb ul{
+	margin:3px 0 0 0;
+	padding:0;
+}
+.bread-crumb li{
+	float:left;
+	margin:0;
+	padding:0 5px 0 10px;
+	font-size:11px;
+	color:#303030;
+	background:url(/Control/ArquivoExibir.aspx?NomeArquivo=maior.png) no-repeat;
+	background-position:0 4px;
+}
+.bread-crumb li:first-child{
+	background:none;
+}
+.last strong{
+	font-weight:normal;
+}
+/*---Imagens produto --*/
+.imgProd{
+	float:left;
+	margin:0;
+	width:412px;
+	height:auto;
+	display:inline;
+}
+.imgProd #show{
+	display:block;
+	float:left;
+	width:412px;
+}
+#include div#image{
+	border:1px solid #dedede;
+	width:406px;
+	height:406px;
+	margin-left:4px;
+	position:relative;
+}
+
+.thumbs li{
+	float:left;
+	margin:4px;
+	border:1px solid #dedede;
+	width:93px;
+	height:93px;
+}
+.tarja{
+	background:#E1E1E1;
+    height: 16px;
+    position: absolute;
+    top: 557px;
+    width: 406px;
+    z-index: 1;
+	margin-left:5px;
+}
+.tarja p{
+	font-size:10px;
+	color:#878787;
+	padding:0 0 0 15px;
+	margin:3px 0 0 10px;
+	float:left;
+	display:block;
+	background:url(/Control/ArquivoExibir.aspx?NomeArquivo=lupa.png) no-repeat;
+	background-position:left;
+}
+.imgProd{
+	margin:5px 0 0 0 !important;
+}
+/* sociais*/
+#redesSociais{
+	float:left;
+	margin:0;
+	padding:0;
+	display:table;
+	width:104px;
+}
+
+#redesSociais a{
+	float:left;
+	margin:0 2px;
+	padding:0 !important;
+}
+#redesSociais a:last-child{
+	margin:0;
+}
+/*----	Indique a um amigo ---*/
+#indique{
+	float:left;
+	margin:0 5px 0 0;
+	padding:0;
+	display:table;
+	width:200px;
+}
+#indique input{
+	background:none;
+	float:left;
+	font-size:10px;
+	color:#838383;
+	text-decoration:underline;
+}
+/*--- Caixa nome produto ---*/
+.txtProd{
+	margin:5px 0 0 10px;
+	width:545px;
+	float:right !important;
+	display:inline;
+	
+}
+/*-----Nome do produto ---*/
+/*Largura da caixa*/
+.larg{
+	width:550px;
+}
+.productName{
+	font-size:18px;
+	font-weight:400;
+	padding:0;
+	margin:0;
+}
+/*---Estrelas ---*/
+.rating-produto,
+.rating-wrapper .rating{
+	width:82px;
+	height:15px;
+	text-indent:-9000px;
+	margin:0;
+	padding:0;
+	float:left;
+	background:url(/Control/ArquivoExibir.aspx?NomeArquivo=rating_stars.png) no-repeat;
+}
+
+.avaliacao0{
+	background-position:0 0;
+}
+.avaliacao10{
+	background-position:0 -16px;
+}
+.avaliacao20{
+	background-position:0 -32px;
+}
+.avaliacao30{
+	background-position:0 -48px;
+}
+.avaliacao40{
+	background-position:0 -65px;
+}
+.avaliacao50{
+	background-position:0 -82px;
+}
+.rating-wrapper strong{
+	display:none;
+}
+/*------	NumereÃ§Ã£o Estrelas --------*/
+.a0 {background-position:0 0px!important;}
+.a5 {background-position:0 -16px!important;}
+.a10 {background-position:0 -16px!important;}
+.a15 {background-position:0 -32px!important;}
+.a20 {background-position:0 -32px!important;}
+.a25 {background-position:0 -48px!important;}
+.a30 {background-position:0 -48px!important;}
+.a35 {background-position:0 -65px!important;}
+.a40 {background-position:0 -65px!important;}
+.a45 {background-position:0 -82px!important;}
+.a50 {background-position:0 -82px!important;}
+/*----InformaÃ§Ãµes ocultas ---*/
+.txtProd h1 + strong{
+	display:none;
+}
+
+/*Largura da caixa*/
+.larg1{
+	width:250px;
+	margin-top:40px;
+}
+/*--- PreÃ§o ---*/
+.descricao-preco{
+	float:left;
+	margin:0;
+	padding:0;
+	display:block;
+	width:250px;
+}
+#productPrice p,
+.valor-por,
+.valor-dividido,
+.valor-dividido span,
+.valor-dividido label,
+.valor-dividido strong{
+	font-size:12px;
+	font-weight:normal;
+	color:#838383;
+	font-style:normal !important;
+}
+.titulo-parcelamento{
+	display:none;
+}
+.valor-dividido span,
+.valor-dividido span strong,
+.valor-dividido span label{
+	font-size:10px;
+	color:#d40000;
+}
+.other-payment-method-1-A{
+	font-size:10px;
+	color:#569900 !important;	
+}
+.skuBestPrice{
+	font-size:22px;
+	color:#d40000;
+	font-weight:normal;
+	font-style:normal;
+}
+.specification{
+	font-size:12px;
+	color:#5b5a5a;
+}
+/*---	Outra formas de pagamento --*/
+.other-payment-method{
+	float:left;
+	width:250px;
+	display:table;
+}
+.other-payment-method-ul li{
+	display:none;
+}
+.other-payment-method-1-A{
+	font-size:10px;
+	color:#838383;
+	display:block !important;
+}
+.see-other-payment-method-link{
+	font-size:10px;
+	color:#838383;
+	text-decoration:underline;
+	margin-top:15px;
+}
+.img_precoExclusivo{
+	float:left;
+	margin:10px 0 0 0;
+	padding:0;
+}
+/*---	Listas	----*/
+#listaPosicao ul.topic{
+	float:left;
+	margin-top:10px !important;
+}
+
+.specification{
+	display:block !important;
+	padding:0 0 4px;
+}
+
+.sku-selector{
+	border:1px solid #e7e7e7;
+	width:184px;
+	height:22px;
+	margin:0;
+	font-size:11px;
+	color:#303030;
+	padding:2px;
+}
+/*---Tamanho da caixa*/
+.larg2{
+	width:270px;
+	float:right;
+}
+/*----Frete-----*/
+.frete{
+	float:right;
+	margin:3px 5px 0 0;
+	display:inline;
+	text-align:right;
+	position:relative;
+}
+.frete a{
+	font-size:12px;
+	color:#838383 !important;
+	text-decoration:underline;
+	text-align:right;
+}
+/*---Itens ocultos --*/
+body.produto #ctl00_lnkHome,
+.lnkExterno,
+#lnkFechar2,
+body.produto .frete .header h2{
+	display:none;
+}
+div.frete .close a{
+	background:url(/Control/ArquivoExibir.aspx?NomeArquivo=bt_excluir.jpg) no-repeat;
+	width:12px;
+	height:12px;
+	color:#F00 !important;
+	background-position:-18px;
+	text-indent:-9000px !important;
+	text-align:center;
+	display:table;
+	position:absolute;
+	top:26px;
+	right:1px;
+}
+body.produto .frete .content{
+	width:200px;
+	background:#f3f3f3;
+	height:auto;
+	border:1px solid #dedede;
+	display:table;
+	float:right;
+	padding:3px;
+	margin:18px 0 0 0;
+}
+.freight-zip-box{
+	border:1px solid #ccc;
+}
+.prefixo{
+	font-size:12px;
+	color:#303030 !important;
+	text-align:right;
+}
+.freight-btn{
+	background:url(/Control/ArquivoExibir.aspx?NomeArquivo=bt_calcular.jpg) no-repeat;
+	text-indent:-9000px;
+	font-size:1px;
+	width:71px;
+	height:18px;
+	float:right;
+	margin:1px 0 0 5px;
+	display:block;
+}
+.cep-busca a{
+	white-space:nowrap !important;
+	font-size:12px;
+	color:#838383 !important;
+	text-decoration:underline;
+}
+/*----Tabela---*/
+.freight-values table{
+	font-size:10px;
+	color:#838383;
+	text-align:left;
+	height:auto;
+	display:table;
+	width:200px;
+	margin-top:5px;
+}
+.freight-values table tr td{
+	padding:3px;
+}
+.freight-values table tr td:first-child{
+	width:90px;
+}
+/*----	Imagem frete --*/
+.img_frete{
+	margin:30px 5px 0 0;
+	float:right;
+	display:table;
+}
+/*-- Botao comprar --*/
+#comprar{
+	height:auto;
+	display:table;
+	width:234px;
+	float:right;
+	margin:30px 5px 0 0;
+	
+}
+.listQuant{
+	border:1px solid #e7e7e7;
+	-moz-border-radius: 3px;
+	-webkit-radius: 3px;
+	border-radius: 3px;
+	width:34px;
+	height:18px;
+	float:right;
+	margin:0 5px 0 0;
+	padding:2px;
+	display:block;
+	font-size:12px;
+	color:#838383;
+}
+.listPar{
+	float:left;
+	margin:5px 0 0 125px;
+	display:block;
+	padding:0;
+	font-size:12px;
+	color:#5b5a5a;
+	}
+.buy-button{
+	text-indent:-9000px;
+	width:258px;
+	height:70px;
+	background:url(/Control/ArquivoExibir.aspx?NomeArquivo=bt_comprar.png) no-repeat;
+	float:left;
+	margin:10px 0 0 0;
+}
+/*Mensagem erro*/
+.cep-invalido p{
+	font-size:12px;
+	color:#d40000 !important;
+	margin:5px;
+}
+.cep-invalido p strong{
+	color:#d40000;
+}
+/*------	Compre Junto	-----*/
+#compreJunto{
+	width:980px;
+	float:left;
+	margin:10px 0 0 0;
+	padding:0;
+}
+.bg_compreJunto{
+	border:1px solid #e7e7e7;
+	-moz-border-radius: 3px;
+	-webkit-radius: 3px;
+	border-radius: 3px;
+	display:table;
+	float:left;
+	width:970px;
+	padding:3px;
+	margin-top:5px;
+}
+/*--Imagem Produto*/
+.galeriaCompre{
+	float:left;
+	margin:0 0 0 10px;
+	padding:0;
+	display:inline;
+}
+.galeriaCompre div#show div#include{
+	display:none;
+}
+.galeriaCompre div#show ul.thumbs li + li{
+	display:none;	
+}
+/*---Nome produto-*/
+.nomeCompre{
+	float:left;
+	margin:0;
+	padding:5px;
+	height:auto;
+	display:table;
+}
+.nomeCompre .productName{
+	font-size:12px;
+	color:#000;
+	font-weight:normal;
+}
+/*Faixa-*/
+.faixa{
+	float:left;
+	width:850px;
+	height:62px;
+	margin:12px 0 0 0;
+}
+.sinalMais{
+	font-size:56px;
+	color:#c80000;
+	float:left;
+	margin:0;
+	padding:0;
+	font-weight:bold;
+}
+.parBg{
+	width:770px;
+	float:left;
+	font-size:16px;
+	color:#666;
+	padding:5px 5px 5px 15px;
+	margin:22px 0 0 5px;
+	display:block;
+	background:#ebebeb;
+	-moz-border-radius: 3px;
+	-webkit-radius: 3px;
+	border-radius: 3px;
+}
+/*Carrosel Compre Junto / Quem comprou comprou tambÃ©m -*/
+#caixaComprejunto{
+	float:right;
+	width:770px;
+	padding:5px;
+	margin:0;
+	height:auto;
+	display:table;
+}
+.comprejunto > h2{
+	display:none;
+}
+#caixaComprejunto ul{
+	left:0 !important;
+	float:left;
+	margin:0;
+	padding:0;
+	width:760px;
+	height:auto;
+	display:table;
+}
+#caixaComprejunto li{
+	margin:0;
+	padding:0;
+	width:760px;
+	height:140px;
+	border:none !important;
+	display:block;
+	float:left;
+}
+#caixaComprejunto li:hover{
+	background:none;
+}
+#caixaComprejunto img{
+	float:left;
+	margin:0 0 0 15px;
+	padding:0;
+	display:block;
+}
+#caixaComprejunto h3{
+	font-size:12px;
+	font-weight:normal;
+	color:#000;
+	padding:0;
+	margin:30px 0 0 35px;
+	float:left;
+	display:block;
+	width:285px;
+}
+
+#caixaComprejunto .newPrice{
+	font-size:10px;
+	color:#a8a8a8;
+	margin:0;
+	padding:0;
+	float:right;
+	display:block;
+	width:200px;
+	margin:-15px 0 0 0;
+	text-align:right;
+}
+#caixaComprejunto .data{float:left; width:530px;}
+#caixaComprejunto .data h2{margin:40px 0 0 18px; padding:0 !important;}
+#caixaComprejunto .newPrice em{
+	font-size:16px;
+	color:#797979;
+}
+#caixaComprejunto .newPrice span{
+	font-size:10px;
+	color:#797979;
+}
+#caixaComprejunto .brand{
+	font-size:10px;
+	color:#a8a8a8;
+	margin:0 0 0 18px;
+	padding:0;
+	float:left;
+	display:block;
+	width:350px;
+}
+#caixaComprejunto .installment{
+	font-size:10px;
+	margin:0 -207px 0 0;
+	padding:0;
+	float:right;
+	display:block;
+	color:#c80000;
+	text-align:right;
+}
+#caixaComprejunto .quickView{
+	display:none;
+}
+.comprouTambem {
+	float:left;
+	width:980px;
+	height:auto;
+	display:table;
+}
+.comprouTambem h2{
+	width:915px;
+	height:31px;
+	float:left;
+	background:url(/Control/ArquivoExibir.aspx?NomeArquivo=barra2.jpg) no-repeat;
+	margin:10px 0 0 0;
+	padding:5px 0 0 65px;
+	font-size:15px;
+	color:#5b5a5a;
+}
+.comprouTambem .jcarousel-container{
+	border:1px solid #e7e7e7;
+	-moz-border-radius: 3px;
+	-webkit-radius: 3px;
+	border-radius: 3px;
+	display:table;
+	float:left;
+	width:970px;
+	padding:3px;
+	margin-top:2px;
+}
+.percent{
+	float:left;
+	background:#a4a4a4;
+	font-size:11px;
+	color:#fff;
+	padding:5px;
+	margin:10px 0 0 20px;
+	display:block;
+}
+.percentual{
+	color:#fff;
+	font-size:11px;
+}
+/*----Faixa baixo -*/
+.box-preco-atualizado{
+	float:left;
+	margin:10px 0 0 0;
+	padding:5px;
+	display:block;
+	background:#ebebeb;
+	-moz-border-radius: 3px;
+	-webkit-radius: 3px;
+	border-radius: 3px;
+	width:800px;
+}
+.box-preco-atualizado dl{
+	float:left;
+	margin:10px 0 0 5px;
+	display:table;
+}
+.box-preco-atualizado dt{
+	float:left;
+	font-size:14px;
+	color:#c80000;
+	font-weight:bold;
+}
+.box-preco-atualizado dd{
+	float:left;
+	font-size:14px;
+	color:#c80000;
+	margin-left:5px;
+}
+.box-preco-atualizado .btn-batch-buy{
+	background:url(/Control/ArquivoExibir.aspx?NomeArquivo=bt_comprarjunto.png) no-repeat;
+	width:269px;
+	height:41px;
+	float:right;
+	margin:0;
+	padding:0;
+	text-indent:-9000px;
+}
+/*-------	Produtos Relacionados ----*/
+#produtosRelacionados{
+	float:left;
+	width:980px;
+	height:auto;
+	display:table;
+}
+#produtosRelacionados h2{
+	width:915px;
+	height:31px;
+	float:left;
+	background:url(/Control/ArquivoExibir.aspx?NomeArquivo=barra2.jpg) no-repeat;
+	margin:10px 0 0 0;
+	padding:5px 0 0 65px;
+	font-size:15px;
+	color:#5b5a5a;
+}
+#produtosRelacionados li{
+	height:270px !important; 
+}
+/*-------	AvaliaÃ§Ãµes ----*/
+#avaliacoes{
+	margin-top:10px;
+	float:left;
+	width:980px;
+	height:auto;
+	display:table;
+}
+.barra{
+	width:915px;
+	height:26px;
+	float:left;
+	background:url(/Control/ArquivoExibir.aspx?NomeArquivo=barra2.jpg) no-repeat;
+	margin:3px 0 0 0;
+	padding:5px 0 0 65px;
+	font-size:15px;
+	color:#5b5a5a;
+}
+.mediaAvaliacao{
+	float:left;
+	margin:0;
+	padding:0;
+}
+.fazerAvaliacao{
+	float:right;
+	margin:0;
+	padding:0;
+	background:#0C3;
+}
+/*Ver opinioes*/
+/*-Objetos ocultos */
+#opcoes-avalie,
+.avalie-produto h5,
+.ver-todos-comentarios span,
+.user-review h4{
+	display:none;
+}
+#opiniao_de_usuario{
+	border:1px solid #e7e7e7;
+	-moz-border-radius: 3px;
+	-webkit-radius: 3px;
+	border-radius: 3px;
+	display:table;
+	float:left;
+	width:970px;
+	padding:3px;
+	margin-top:5px;
+}
+p.media{
+	float:left;
+	margin:16px 0 0 10px;
+	padding:0;
+	width:400px;
+	padding:8px;
+	display:inline;
+}
+p.media span{
+	float:left;
+	font-size:11px;
+	color:#838383;
+	font-weight:bold;
+	margin:2px 0 0 0;
+	padding:0;
+}
+p.media em span{
+	font-weight:normal !important;
+	font-style:normal !important;
+	float:right;
+	margin:2px 90px 0 0;
+	padding:0;
+}
+p.media em strong{
+	margin-left:8px;
+}
+.rating{
+	float:left;
+	width:450px;
+	margin:45px 0 0 125px;
+	display:inline;
+}
+.rating li{
+	float:left;
+}
+/*-AvaliaÃ§Ã£o barras, estrelas -*/
+.rating-demonstrativo {
+	width:82px;
+	height:15px;
+	margin:0;
+	padding:0;
+	float:left;
+	background:url(/Control/ArquivoExibir.aspx?NomeArquivo=rating_stars.png) no-repeat;
+	display:block;
+}
+/* avaliacao estrelas */
+.avaliacao0 {background-position:0 0;}
+.avaliacao5 {background-position:0 -16px;}
+.avaliacao10 {background-position:0 -16px;}
+.avaliacao15 {background-position:0 -32px;}
+.avaliacao20 {background-position:0 -32px;}
+.avaliacao25 {background-position:0 -48px;}
+.avaliacao30 {background-position:0 -48px;}
+.avaliacao35 {background-position:0 -65px;}
+.avaliacao40 {background-position:0 -65px;}
+.avaliacao45 {background-position:0 -81px;}
+.avaliacao50 {background-position:0 -81px;}
+
+/* fim avaliacao estrelas */
+div.avaliacao span.voteRatingBar {
+	display:block; 
+	margin:5px 10px;
+	width:218px;
+	height:7px;
+	background:#d4d4d4;
+	float:left;
+}
+div.avaliacao span.voteRatingBar span {
+	display:block; 
+	height:7px;
+	background:#ffb400;
+}
+div.avaliacao span.voteRatingBar + span{
+	font-size:12px;
+	margin:2px 0 0 0;
+	padding:1px;
+	color:#838383;
+	float:right;
+	line-height:0;
+	display:block;
+	height:2px;
+	padding:5px;
+}
+
+/*----Botoes estrelas--*/
+.rating-avalie{
+	float:right;
+	margin:60px 160px 0 0;
+	display:inline;
+	width:90px;
+}
+.ratingStar{
+	width:16px;
+	height:15px;
+	margin:0;
+	padding:0;
+	float:left;
+	background:url(/Control/ArquivoExibir.aspx?NomeArquivo=rating_stars.png) no-repeat;
+	display:block;
+	text-indent:-9000px;
+}
+.ratingStar:hover{
+	background-position:0 -16px;
+}
+.filledRatingStar{
+	background-position:0 -16px;
+}
+.emptyRatingStar{
+	background-position:0 0;
+}
+/*----Botao fazer avaliaÃ§Ã£o ---*/
+.publique{
+	float:right;
+	width:160px;
+	margin:20px 130px 0 0;
+	display:block;
+}
+.publique a{
+	width:158px;
+	height:23px;
+	background:url(/Control/ArquivoExibir.aspx?NomeArquivo=bt_avaliacao.jpg) no-repeat;
+	text-indent:-9000px;
+	display:block;
+}
+ul.util,
+.email-resenha{
+	display:none;
+}
+p.dados {
+	font-size:11px;
+	color:#838383 !important;
+}
+p.dados strong,
+.cidade-resenha{
+	color:#838383;
+}
+.quem .rating{
+	position:absolute;
+	z-index:1000;
+}
+/*-------Opinioes Zebrado-------*/
+ul.resenhas li .opt-texto p{
+	padding:0 5px 12px 5px;
+	margin:3px 0;
+	width:930px;
+	font-size:12px;
+	color:#5b5a5a !important;
+}
+ul.resenhas li:nth-child(2n+2) {  
+    background-color: #f6f6f6;  
+}  
+
+
+/*----------	Produto indisponivel------*/
+.notifyme{
+	float:left;
+}
+.notifymetitle{
+	float:left;
+	color:#d40000 !important;
+	font-size:22px;
+	font-weight:500;
+	margin:0;
+	padding:0;
+}
+.notifyme fieldset{
+	float:left;
+	width:545px;
+	height:300px;
+	background:#fff;
+	margin:0;
+	padding:0;
+}
+.notifyme fieldset p{
+	float:left;
+	margin:73px 0 0 0 !important;
+	font-size:12px !important;
+	color:#000 !important;
+}
+.notifyme-client-name,
+.notifyme-client-email{
+	border:1px solid #e7e7e7;
+	width:376px;
+	height:30px;
+	border-radius:3px;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+	float:left;
+	margin-top:5px;
+	padding-left:3px;
+}
+/*.notifyme-button-ok{
+	width:154px;
+	height:40px;
+	float:right;
+	background:url(/Control/ArquivoExibir.aspx?NomeArquivo=bt_aviseme.png) no-repeat !important;
+	text-indent:-9000px;
+	display:block;
+}*/
+#historico{
+	margin-top:10px;
+}
+/*-----------*/
+body.produto div.quem{
+	width:960px;
+	height:auto;
+	margin:10px 0px;
+	padding:3px;
+	float:left;
+	display:table;
+}
+
+/*----Indique para um amigo ----*/
+body.produto #TB_window{
+	width:385px !important;
+	height:315px;
+	margin-left:-192px !important;
+}
+body.produto #TB_ajaxContent{
+	width:385px !important;
+	height:315px;
+}
+body.produto .TB_ajaxWindowTitle{
+	font-size:18px;
+	color:#000;
+	margin:5px 0 0 0;
+	font-weight:normal;
+}
+body.produto #refer-a-friend-form #div-title{
+	display:none !important;
+}
+body.produto #refer-a-friend-form fieldset{
+	float:left;
+	width:353px;
+	font-size:12px;
+	color:#5b5a5a;
+	margin:5px;
+}
+body.produto #refer-a-friend-form label{
+	text-align:right;
+}
+body.produto .legFriendsData{
+	font-weight:bold;
+	margin:3px;
+}
+body.produto #refer-a-friend-form div{
+	display:block;
+	float:left;
+	margin:3px;
+}
+body.produto #txtSeuNome,
+body.produto #txtSeuEmail,
+body.produto #txtNomeAmigo,
+body.produto #txtEmailAmigo{
+	background:#eaeaea;
+	width:291px;
+	height:18px;
+	border:1px solid #eaeaea;
+	border-radius:3px;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+}
+body.produto #btnAdicionarAmigos{
+	display:none;
+}
+body.produto #spnSeuNomeError,
+body.produto #spnSeuEmailError,
+body.produto #spnNomeAmigoError,
+body.produto #spnEmailAmigoError{
+	font-size:11px;
+	color:#F00;
+	float:left;
+	display:block;
+	margin:0 0 0 45px;
+}
+body.produto #legMessage{
+	float:left;
+}
+body.produto #txtMensagem{
+	background:#eaeaea;
+	width:269px;
+	height:60px;
+	border:1px solid #eaeaea;
+	border-radius:3px;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+	overflow:hidden;
+	overflow-y:auto;
+	float:left;
+	margin-left:5px;
+}
+/*Botao*/
+body.produto #btnEnviar{
+	float:right;
+	margin:0 33px 0 0;
+	padding:0;
+	background:url(/Control/ArquivoExibir.aspx?NomeArquivo=bt_enviar.png) no-repeat;
+	width:111px;
+	height:30px;
+	text-indent:-9000px;
+	border:none;
+	font-size:0;
+}
+body.produto #btnCancelar{
+	display:none;
+}
+
+
+
+
+
+/*------------------------Pop up opÃ§Ãµes de pagamento----*/
+body.pop-pagamento .header,
+body.pop-pagamento .footer{
+	display:none;
+}
+body.pop-pagamento .content{
+	width:400px;
+	height:auto;
+	display:table;
+	margin:0 auto;
+	padding:0;
+	color:#5b5a5a !important;
+	font-size:12px !important;
+}
+/*Trickbox*/
+
+/*--------Selecionar--------*/
+.comprejunto fieldset{
+	float:left;
+	margin:35px 0 0 0;
+	padding:0;
+	width:85px;
+}
+.comprejunto fieldset label{
+	float:right;
+	color:#666666;
+	font-size:11px;
+}
+.buy-product-checkbox{
+	float:left;
+}
+
+
+/* modal */
+#publishUserReview .footer {
+  position: fixed;
+  z-index:100;
+  top: 0px;
+  left: 0px;
+  height:100%;
+  width:100%;
+  background:#000;
+  opacity: .40;
+  filter:alpha(opacity=40);
+  -moz-opacity:0.40;
+  -khtml-opacity: 0.40;
+}
+#publishUserReview h2{ background:none !important; padding:0 0 0 21px !important;}
+
+#publishUserReview .footer .close,
+#publishUserReview .header h1, 
+#publishUserReview .aviso-resenha,
+#publishUserReview .opiniaoRating > div > label,
+#publishUserReview .fDivulgaEmail {
+	display:none;
+}
+
+#publishUserReview .header {
+  font: 12px Arial, Helvetica, sans-serif;
+  color: #333333;
+  position: fixed;
+  background: #ffffff;
+  z-index: 102;
+  color:#000000;
+  border: 0;
+  text-align:left;
+  top:50%;
+  left:50%;
+  padding:20px 12px 10px;
+  width:522px;
+  height:276px;
+  margin:-148px 0 0 -261px;
+}
+#publishUserReview .content{position:relative;}
+#publishUserReview .header h2{background:url(/Control/ArquivoExibir.aspx?NomeArquivo=barra4.jpg) 8px top no-repeat; clear:both; color:#5B5A5A; font-size:15px; font-weight:bold; height:30px; line-height:30px; padding:0 0 0 65px;}
+#publishUserReview .header .close{background:url(/Control/ArquivoExibir.aspx?NomeArquivo=top_fechar.png); height:25px; position:absolute; right:0; top:-5px; width:68px;}
+#publishUserReview .header .close a{display:block; height:25px; text-indent:-9999em; width:68px;}
+#publishUserReview .ranking ul{left:50px; list-style:none; position:absolute; top:70px;}
+#publishUserReview .ranking .ratingTitulo{float:left; font-size:14px; font-weight:normal; padding:2px 10px 0 0;}
+#publishUserReview .opiniaoRating > div{float:left; margin:4px 0 0 0;}
+#publishUserReview .opiniaoInfo{color:#666; font-size:12px; left:22px; position:absolute; top:8px; width:460px;}
+#publishUserReview .opiniao{padding:94px 0 0 0;}
+#publishUserReview .opiniao div{padding:0 0 4px 0;}
+#publishUserReview .opiniao label{color:#000; display:block; float:left; font-size:14px; padding:0 10px 0 0; text-align:right; text-transform:capitalize; width:88px;}
+#publishUserReview .opiniao .fitext{border:1px solid #E7E7E7; height:19px; line-height:19px; width:250px;}
+#publishUserReview .opiniao textarea{border:1px solid #E7E7E7; height:80px; width:405px;}
+#publishUserReview .avaliar{margin: 8px 0 0 347px;}
+#publishUserReview .avaliar a{background:url("/Control/ArquivoExibir.aspx?NomeArquivo=bt_avaliacaoEnviar.jpg") 0 0 no-repeat; display:block; height:23px; text-indent:-9000px; width:158px;}
+
+
+.formUserComment { /* ie6 hack */
+position: absolute;
+margin-top: expression(0 - parseInt(this.offsetHeight / 2) + (TBWindowMargin = document.documentElement && document.documentElement.scrollTop || document.body.scrollTop) + 'px');
+}
+
+/*promocoesProd*/
+.promocoesProd{display:block !important; clear:both; position:relative; width:188px; height:80px; margin: 0; padding: 0;}
+.promocoesProd .preco-exclusivo{margin:0; top:21px;}
+.promocoesProd .desconto-boleto{background:url(/Control/ArquivoExibir.aspx?NomeArquivo=desconto.png) no-repeat 0 0; width:187px !important; height:21px !important; text-indent:-9000px; font-size:0; display:block;}
+.frete-gratis-sul, .frete-gratis-sudeste{display:block; background:url(/Control/ArquivoExibir.aspx?NomeArquivo=frete_gratis.png) no-repeat 0 0; width:187px; height:21px; text-indent:-9000px; font-size:0; position:absolute; top:-21px; margin:0; }
+
+/*CorreÃ§Ãµes*/
+/*imgagemProduto*/
+@media screen and (-webkit-min-device-pixel-ratio:0){
+.jqZoomWindow {left:560px;}
+}
+
+/* ZOOM */
+.jqZoomPup {background:#FFFFFF; display:block !important; border:1px solid #CCC; cursor:crosshair; opacity:0.6; overflow:hidden; z-index:10;}
+.jqZoomPup img {border:0 none;}
+
+.preload {-moz-opacity:0.8; opacity:0.8; filter:alpha(opacity = 80); border:1px solid #CCC; background:#FFF url(/Control/ArquivoExibir.aspx?NomeArquivo=zoomloader.gif) center center no-repeat; z-index:110; position:absolute; top:0px; left:0px; width:100%; height:100%;}
+
+.jqZoomWindow { background: #fff; box-shadow: 0 1px 2px #191919; color: #fff; border:1px solid #ccc; height:380px !important; top:190px !important; width:550px !important; display:none;}
+
+/*indique*/
+.produto #TB_window{width:389px !important;}
+
+/*POp up OpÃ§Ãµes de pagamento*/
+.formasPagamento{display:block;}
+
+/*OpÃ§Ãµes de parcelamento*/
+.paymentCalcEnt{clear:both;}
+.paymentCalcEnt .openProductPayment	{ color: #b2b2b2; font-size:14px; text-decoration: underline; }
+/*Oculto*/
+.productPayment .ttlOpcoes{display:none !important;}
+.product .promocao-exemplo-frete-gratis	{ background: #fff; color: #fff; display: inline; font-size: 12px; line-height: 16px; padding: 2px 8px; }
+.productPayment { background: none repeat scroll 0 0 #FFFFFF; border: 3px solid #fff; display:none; left: 50%; margin: -200px 0 0 -198px; position: fixed; top: 50%; width: 430px; z-index: 100; border-radius:10px; width: 488px; height:387px; }
+.productPaymentIframe{width:487px; height:386px;}
+.productPayment .other-payment-method-content	{ display: none; }
+.productPayment .contentWrapper	{ background: #fff; }
+.productPayment .ttlOpcoes	{ background: none repeat scroll 0 0 #00867a; color: #FFFFFF; display: block; height: 25px; left: -3px; padding: 10px 0 0 10px; position: absolute; top: -35px; width: 426px; }
+.productPayment .header .bt	{ position: absolute; top: 0; right: 0; }
+/*Botao*/
+.productPayment .fechar	{ background: url(/Control/ArquivoExibir.aspx?NomeArquivo=top_fechar.png) no-repeat scroll 0 0 transparent; display: block; height: 25px; left: 53%; margin: -229px 0 0 205px; position: fixed; text-indent: -999em; top: 54%; width: 68px; z-index: 10002; }
+
+/*imagemProduto*/
+.imagemProduto{display:none;}

@@ -1,0 +1,18 @@
+/* Facebox */
+#facebox {position: absolute; top:0; left:0; z-index:100; text-align:left;}
+#facebox .popup{position:relative; background:#EFEFEF; border-radius:5px; -moz-border-radius:5px; -webkit-border-radius:5px; padding:3px; width:397px; z-index:102;}
+#facebox .content {background:#EFEFEF; -webkit-border-radius:4px; -moz-border-radius:4px; border-radius:4px;}
+#facebox .content h3 {padding:25px;}
+#facebox .content h4{background:url("/arquivos/sprite_title.png") no-repeat scroll 0 -200px transparent; height:27px; width:396px;}
+#facebox .content h4 span{color:#444444; float:left; font-size:14px; font-style:normal; font-weight:bold; margin:4px 10px;}
+#facebox .content .erro{font-size:13px; padding:15px;}
+#facebox .content .erro p{line-height:18px;}
+#facebox .content > p {font-size:14px; line-height:20px; padding:15px 15px 0;}
+#facebox .close{background:url("/arquivos/btExcluir.gif") 0 0 no-repeat; display:block; height: 15px; position:absolute; right:8px; top:8px; width:16px;}           
+#facebox .close img{display:none;}
+#facebox .loading {text-align: center;}
+#facebox .image {text-align: center;}
+#facebox img {border: 0;margin: 0;}
+#facebox_overlay {position: fixed; top:0px; left:0px; height:100%; width:100%;}
+.facebox_hide {z-index:-100;}
+.facebox_overlayBG {background-color:#000; z-index:99;}

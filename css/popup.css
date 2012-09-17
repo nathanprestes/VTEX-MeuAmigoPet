@@ -1,0 +1,132 @@
+/***********************************************************************
+* RESET 
+***********************************************************************/
+@import url("/arquivos/reset.css");
+/**********************************************************************/
+
+body {color:#3c3c3c; font-size:12px; font-family:"Arial", Verdana, Sans-Serif; margin:0; padding:0;}
+.contentWrapper .header h1,
+.footer {display:none;}
+
+/*Outras formas de pagamento*/
+.pop-pagamento{font-family:"Arial", Verdana, Sans-Serif; font-style:normal; font-size:12px; margin:0; padding:0;}
+.pop-pagamento h1{display:none;}
+/*Titulo*/
+.pop-pagamento .header{background:url( "/arquivos/sprite_title.png") repeat-x -399px -200px; height:15px; padding:5px 0;}
+.pop-pagamento .header h2{font-size:14px; font-weight:bold; padding:0 8px; color:#444; margin:0;}
+/*Cartao de credito*/
+.pop-pagamento .cartao h3{color:#777; font-size:12px; font-weight:bold; padding:3px 10px; margin:10px 3px 0 3px;}
+.pop-pagamento .cartao fieldset{border:0 none;}
+.pop-pagamento .card-flag img{float:left;}
+.pop-pagamento .card-flag select{float:left; margin:4px 10px; width:149px; height:23px; border:1px solid #999; line-height:16px;}
+/*tabela*/
+.pop-pagamento table{width:95%; padding:5px; text-align:left; border-collapse:collapse; margin-top:10px;}
+.pop-pagamento th{color:#521f25;}
+.pop-pagamento .parcelas{width:40%;}
+.pop-pagamento td{font-size:14px; color:#777; padding:5px 3px;}
+.pop-pagamento tr:nth-child(2n+2){background-color: #e4e0e1;} 
+
+/*Boleto*/
+.pop-pagamento .boleto h3{color:#521f25; font-size:12px; margin:5px 10px; padding:3px;}
+.pop-pagamento .boleto img{float:left; margin:5px;}
+.pop-pagamento .boleto p{ float:left; font-size:12px; line-height:16px; margin:0; padding:3px; width:180px; color:#505050}
+.pop-pagamento .boleto em{display:block; font-weight:bold; margin: 0 0 0 54px; font-style:normal;}
+
+/*Botao fechar*/
+.fechar{position:absolute; top:10px; right:15px; background:url("/arquivos/btExcluir.gif"); height:15px; width:16px; text-indent:-9000px; font-size:0;}
+/*Oculto*/
+.pop-pagamento .close,
+.pop-pagamento .cartao legend,
+.pop-pagamento hr,
+.ttlOpcoes{display:none;}
+
+
+/*pop ServiÃ§o*/
+.pop-servico .header{background:url(/arquivos/sprite_title.png) no-repeat 0px -200px; height:25px; padding:0;}
+.pop-servico .header h2{font-size:14px; font-weight:bold; line-height:25px; padding:0 8px; color:#444; margin:0;}
+.pop-servico .header .close {float:right; padding:6px 6px 0 0;}
+.pop-servico .header .close a {background:url(/arquivos/btExcluir.gif) no-repeat 0 0; display:block; height:15px; text-indent:-9999px; width:16px;}
+.pop-servico .content {padding:15px 15px 20px; text-align:left;}
+.pop-servico .content > p {padding:0 0 10px;}
+.garantia-extendida fieldset.top {display:none;}
+.garantia-extendida .wrapper h2 {color: #444; font-size: 15px; padding: 0 0 20px;}
+.garantia-extendida .box-info h3 {color:#444; font-size:13px; font-weight:bold; padding-bottom:15px;}
+.garantia-extendida .box-info .more {display:none;}
+.garantia-extendida .box-info .wrapper {padding-bottom:15px;}
+.garantia-extendida .box-info .wrapper h4 {padding-bottom:10px;}
+.garantia-extendida .continuar input {background: url(/arquivos/sprite.png) no-repeat -520px 0; border: 0 none; display: block; height: 27px; padding-top:28px; text-indent: -9999px; width: 96px;}
+
+/*POPUP Alterar foto*/
+.pop-foto .content,
+.pop-foto .header{width:auto !important;}
+.pop-foto #aspnetForm{padding: 0 !important;}
+/*header*/
+.pop-foto .header{background:url(/arquivos/sprite_title.png) no-repeat 0px -200px; height:25px; padding:0;}
+.pop-foto .header h2{font-size:14px; font-weight:bold; line-height:25px; padding:0 8px; color:#444; margin:0;}
+.pop-foto .header .close {position:absolute; right:10px; top:5px;}
+.pop-foto .header .close a {background:url(/arquivos/btExcluir.gif) no-repeat 0 0; display:block; height:15px; text-indent:-9999px; width:16px;}
+.pop-foto p{color:#3c3c3c; font-size:14px; padding:20px;}
+.pop-foto fieldset{margin:20px auto; width:280px;}
+.pop-foto span{display:none;}
+.salvar{display:block !important; width:85px}
+.button{width:85px !important; height:30px;}
+.button input{width:85px; height:30px; background:url(/arquivos/sprite.png) no-repeat -350px 0; display:block; border:0 none; text-indent:-9000px; }
+
+/*POP Up Carrinho*/
+/*Titulo*/
+.pop-quickview .header{background:url( "/arquivos/sprite_title.png") repeat-x 0px -446px; height:15px; padding:5px 0;}
+.pop-quickview .header h2{font-size:14px; font-weight:bold; padding:0 8px; color:#444; margin:0; float:left;}
+/*close*/
+.pop-quickview .header .close {float:right; padding:1px 9px 0 0;}
+.pop-quickview .header .close a {background:url(/arquivos/btExcluir.gif) no-repeat 0 0; display:block; height:15px; text-indent:-9999px; width:16px;}
+
+/*content*/
+.pop-quickview .content{clear:both; margin:0px; padding:0px; width:619px; display:table;}
+.pop-quickview .box-image{float:left;}
+.pop-quickview .descricao-quick{float:right; width:270px; margin:5px;}
+.pop-quickview .lista-informacoes{float:right; width:310px; margin:5px; padding:3px;}
+.pop-quickview .detalhes{float:right; margin:5px; width:310px; padding:3px;}
+/*Informacoes produto*/
+.pop-quickview .descricao-quick h3 {color:#444; font-size:13px; font-weight:bold; }
+.pop-quickview .descricao-quick span{color:#9E9E9E; font-size:12px; font-style:normal; font-weight: normal;}
+.pop-quickview .descricao-quick span a,
+.pop-quickview .descricao-quick strong,
+/*Oculto*/
+.pop-quickview .economia{color:#9E9E9E;}
+
+.pop-quickview .price-inst span,
+.pop-quickview .price-inst strong{font-size:12px; color:#f89204; font-weight:normal; font-style:normal;}
+.pop-quickview .price-off strong {color:#4047A1; font-size:20px; font-weight:bold;}
+.pop-quickview .price{margin-top:15px;}
+.pop-quickview .price strong{font-weight:normal;}
+/*Botao*/
+.pop-quickview .comprar .bt{background:url("/arquivos/sprite.png") no-repeat -620px 0; display:block; text-indent:-9000px; font-size:0; width:160px; height:42px; margin-top:10px;}
+
+.pop-quickview .lista-informacoes{line-height:16px; color:#9E9E9E !important; font-size:12px; padding:3px;}
+.pop-quickview .detalhes{text-align:left;}
+.pop-quickview .detalhes a{color:#3d3d3d; font-size:11px; text-decoration:underline;}
+.pop-quickview .detalhes a:hover{text-decoration:none;}
+
+/*Estrelas avaliaÃ§Ã£o*/
+.rating{width:82px; height:15px; text-indent:-9000px; padding:0; font-size:0; background:url("/arquivos/rating_stars.png") no-repeat; }
+.rating span{font-size:0 !important; text-indent:-9000px !important;}
+.avaliacao0{background-position:0 0;}
+.avaliacao10{background-position:0 -16px;}
+.avaliacao20{background-position:0 -32px;}
+.avaliacao30{background-position:0 -48px;}
+.avaliacao40{background-position:0 -65px;}
+.avaliacao50{background-position:0 -82px;}
+.rating-wrapper strong{display:none;}
+/*------	NumereÃ§Ã£o Estrelas --------*/
+.a0 {background-position:0 -82px!important;}
+.a5 {background-position:0 -82px!important;}
+.a10 {background-position:0 -65px!important;}
+.a15 {background-position:0 -65px!important;}
+.a20 {background-position:0 -48px!important;}
+.a25 {background-position:0 -48px!important;}
+.a30 {background-position:0 -32px!important;}
+.a35 {background-position:0 -32px!important;}
+.a40 {background-position:0 -16px!important;}
+.a45 {background-position:0 -16px!important;}
+.a50 {background-position:0 0!important;}
+

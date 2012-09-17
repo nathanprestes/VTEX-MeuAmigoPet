@@ -1,0 +1,289 @@
+/*---Display none---*/
+.filtro-marca-preco .menu-navegue, .departamento-ativo .menu-navegue,
+.filtro-marca-preco h3, .filtro-marca-preco h3 + ul,
+.filtro-marca-preco h4, .filtro-marca-preco h4 + ul,
+.departamento-ativo h5, .departamento-ativo h5 + ul,
+.departamento-ativo h3 + ul, .mainContentList .searchResultsTime,
+.product-list li .dvControlGrig .unavaiable img,
+.lista-gerenciar .giftlist-header-codigo, .lista-gerenciar .giftlist-body-codigo,
+.lista-gerenciar .giftlist-header-eventdate, .lista-gerenciar .giftlist-body-eventdate,
+.lista-gerenciar .giftlist-body-finaly, .lista-gerenciar .giftlist-header-finaly,
+.giftlistgifeted, body.lista-prateleira .searchResultsTime, body.lista-prateleira .pager, body.lista-prateleira .sub,
+.giftlisteventdate,
+.giftlisturl,
+.giftlistmessage,
+.giftlisttype,
+.giftlistdetails .EventDate,
+.giftlistdetails .Code,
+.giftlist-body-action-visualizar{display:none;}
+
+/*Lista Busca*/
+.conteudo{clear:both;float:left;width:980px;padding:10px !important;margin-bottom:20px;}
+.lista-home #content .mainContent{background: url("/arquivos/bgListaHome.jpg") no-repeat scroll 500px 45px  transparent;min-height:450px;}
+#content .mainContent{padding:18px 10px;clear: both;display: block;padding: 18px 10px;}
+#content .mainContent h4{color:#faa71b;font-size:25px;padding:0 0 20px;}
+#content .mainContent div.conteudo{color:#7d7d7d;font-size:12px;line-height:20px;padding:0 0 60px;}
+#content .mainContent div.conteudo p{padding:0 0 15px;width: 320px;}
+#content .mainContent .colLeft{float:left;height:200px;padding:0 0 0 65px;width:355px;}
+#content .mainContent .colRight{float:left;padding:0 0 0 10px;width:450px;display:none;} 
+#content .mainContent .colLeft h2,
+#content .mainContent .colRight h2{color:#faa71b;font-size:14px;padding:0 0 14px;}
+#content .mainContent .colLeft p,
+#content .mainContent .colRight span.info-lista-buscar{color:#7D7D7D;display:block;font-size:11px;font-weight:bold;line-height:20px;padding:0 0 10px;}
+#content .mainContent .colRight span.info-lista-buscar{padding-top:14px;}
+#content .mainContent .colLeft a{background:url(/arquivos/sprite.png) no-repeat 2px -112px;color:#FFF;display:block;font-size:11px;font-weight:bold;height:28px;line-height:28px;margin:0 0 3px;text-align:center;width:173px;font-size:0;text-indent:-9000px;}
+#content .mainContent .colLeft a + a{background-position:-376px -84px;}
+
+.colRight .giftlistsearchul li{height:40px;padding:0 0 20px;}
+.colRight .giftlistsearchul li.giftlistsearchname input{width:360px;}
+.colRight .giftlistsearchul li.giftlistsearchgifeted,
+.colRight .giftlistsearchul li.giftlistsearcheventdate,
+.colRight .giftlistsearchul li.giftlistsearchcodigo,
+.colRight .giftlistsearchul li.giftlistsearchfind{float:left;width:188px;}
+.colRight .giftlistsearchul li.giftlistsearchgifeted input,
+.colRight .giftlistsearchul li.giftlistsearcheventdate input,
+.colRight .giftlistsearchul li.giftlistsearchcodigo input{width:172px;}
+.colRight .giftlistsearchul li.giftlistsearchfind input{background:url(/arquivos/sprite.png) -239px -57px no-repeat;border:0;color:#FFF;font-size:11px;font-weight:bold;height:27px;margin:17px 0 0;padding:0 0 2px 0;width:83px;text-indent:-9000px;font-size:0;display:block;}
+.colRight .giftlistsearchul span{color:#7D7D7D;clear:left;display:block;font-size:12px;padding:0 0 3px;font-weight:bold;}
+.colRight .giftlistsearchul input[type=text]{border:1px solid #777;color:#7D7D7D;height:23px;line-height:23px;}
+
+.colRight .giftlistsearch-result{left:-431px;padding:30px 0;position:relative;width:980px;}
+.colRight .giftlistsearch-result table{width:929px;}
+/*th*/
+.colRight .giftlistsearch-result table thead th{background:url(/arquivos/sprite_title.png) no-repeat;color:#656565;font-size:12px;font-weight:normal;height:30px;vertical-align:middle;}
+.colRight .giftlistsearch-result .giftlist-header-codigo{background-position:0 -348px;width:158px;}
+.colRight .giftlistsearch-result .giftlist-header-name{background-position:-158px -348px;width:143px;}
+.colRight .giftlistsearch-result .giftlist-header-gifted{background-position:-300px -348px;width:328px;}
+.colRight .giftlistsearch-result .giftlist-header-eventdate{background-position:-628px -348px;}
+
+.colRight .giftlistsearch-result table tbody td{border-bottom:1px solid #E8E8E8;color:#A6A6A6;font-size:12px;height:62px;text-align:center;vertical-align:middle;}
+.colRight .giftlistsearch-result table tbody td.giftlist-body-codigo{color:#5F5F5F;font-weight:bold;}
+.colRight .giftlistsearch-result table tbody td a{color:#A6A6A6;text-decoration:underline;}
+
+#content .mainContent{min-height:290px;}
+/*Lista criar*/
+.lista-criar #content .mainContent{background:#FFF url(/arquivos/bgListaCriar2.jpg) right 30px no-repeat;padding-bottom:40px;min-height: 290px;}
+.lista-criar #content .mainContent h1{padding-bottom:15px;}
+.lista-criar #content .mainContent div.conteudo{padding-bottom:30px;width:100%;float:none;}
+
+.lista-criar .giftlist{float:left;}
+.lista-criar .giftlistul{padding:0 0 15px 40px;}
+.lista-criar .giftlistul li{padding:0 0 10px}
+.lista-criar .giftlistul li span{color:#7D7D7D;clear:left;display:block;font-size:12px;font-weight:bold;padding:0 0 3px;}
+.lista-criar .giftlistul li input[type=text],
+.lista-criar .giftlistul li select,
+.lista-criar .giftlistul li textarea{border:1px solid #777;color:#7D7D7D;height:23px;line-height:23px;width:258px;}
+.lista-criar .giftlistul li select{width:260px;}
+.lista-criar .giftlistul li textarea{height:108px;}
+.lista-criar .giftlistul li.giftlisteventdate input{width:130px;}
+.lista-criar .giftlistul li.giftlistphoto,
+.lista-criar .giftlistul li.giftlistphotoview,
+.lista-criar .giftlistul li.giftlistisactive{visibility:hidden;position:absolute;left:-9999em;}
+	.lista-criar .address{float:left;padding:200px 0 15px 40px;width:620px;display:none;}
+.lista-criar .address h2{color:#FAA71B;font-size:13px;padding:0 0 10px;}
+.lista-criar .address .address-list legend{color:#7D7D7D;font-size:12px;padding:0 0 10px 0;}  
+.lista-criar .address li.giftlistaddress{float:left;padding:0 50px 35px 0;width:265px;}
+.lista-criar .address li.giftlistaddress input{display:block;float:left;}
+.lista-criar .address li.giftlistaddress address{color:#7d7d7d;font-size:11px;line-height:18px;padding:0 0 0 10px;overflow:hidden;width:240px;}
+.lista-criar input#giftlistsave{background: url("/arquivos/sprite.png") no-repeat scroll -101px -30px transparent;border: 0 none;display: block;float: left;font-size: 0;height: 27px;margin: 18px 0 0 10px;padding: 0 0 2px;text-indent: -9000px;width: 70px;}
+
+.lista-criar #listAddressError{height:45px;}
+
+/***************** INI MENSAGEM ERRO ******************/
+#listAddressError{background:#FFF9E1 url(/arquivos/ico_alerta.png) 10px 10px no-repeat;display:none;border:2px solid #FFD401;font-size:13px;margin:20px 0 20px 30px;padding:10px 10px 20px;text-align:left;width:450px;clear:both;}
+#listAddressError label{color:#333;display:block;padding:6px 0 0 30px;}
+#listAddressError label span{color:#FF0000;font-weight:bold;}
+#listAddressError input {background:url("/arquivos/sprite.png") no-repeat -172px -114px;border:0 none;    display:block;font-size:0;height:24px;margin:8px 0 0 0;padding:0 0 0 2px;text-indent:-9000px;width:83px;float:right;}
+
+/*Lista prateleira*/
+#content .mainContentList{float:right;width:760px;}
+#content .sidebar{float:left;padding:0 0 10px;width:204px;}
+
+.sidebar .filtro-marca-preco{background:#F8FDEB;margin:0 0 1px;padding:12px 12px 0;}
+.sidebar .departamento-ativo{background:#F2F2F2;padding:3px 0 0 0;}
+
+.filtro-marca-preco h5 {color:#339f64;font-size:13px;font-weight:bold;padding:0 0 4px;}
+.filtro-marca-preco ul{padding:0 10px;}
+.filtro-marca-preco ul li{padding:0 0 12px;}
+.filtro-marca-preco ul li a{color:#7D7D7D;font-size:13px;}
+
+.departamento-ativo h3{background:#249859;font-size:16px;line-height:20px;}
+.departamento-ativo h3 a{color:#FFF;display:block;padding:8px 12px;}
+.departamento-ativo h4{border-bottom:1px solid #FFF;font-size:13px;}
+.departamento-ativo h4 a{color:#7D7D7D;display:block;padding:8px 16px;}
+.departamento-ativo ul li{min-height:30px;line-height:16px;}
+.departamento-ativo ul li a{color:#7D7D7D;display:block;font-size:12px;padding:8px 22px;}
+.departamento-ativo ul li a:hover,
+.departamento-ativo h4 a:hover{background:#E3DFDF;color:#249859;}
+
+.mainContentList{float:right;width:760px;}
+
+.mainContentList .vitrine .product-list ul{padding-top:0;}
+.mainContentList .vitrine .product-list ul li{margin:0 24px;}
+
+.mainContentList .info li{clear:both;color:#7D7D7D;font-size:12px;height:20px;}
+.mainContentList .info li .titulo{display:block;float:left; font-weight:bold;width:145px;}
+.mainContentList .info li .texto{display:block;float:left;width:500px;}
+.mainContentList .info li.gifted{color:#249859;font-size:15px;font-weight:bold;padding:0 0 15px;}
+.mainContentList .info li.gifted .titulo{width:160px;}
+.mainContentList .info .message{color:#7D7D7D;font-size:11px;line-height:16px;padding:10px 0 20px;}
+
+.product-list{border-bottom:1px solid #E8E8E8;padding-top:20px;}
+.product-list ul{height:auto;min-height:250px;}
+.product-list li{border-top:1px solid #E8E8E8;float:none;clear:both;height:204px;margin:0 !important;padding:30px 18px;width:725px !important;}
+.product-list li .productImage{float:left;}
+.product-list li .unavaiable {display:block;padding:10px 0 0 0;}
+.product-list li .unavaiableG{display:block;float:left;margin:55px 0 0;}
+.product-list li .dvControlGrig{float:left;padding:0 20px 0 38px;width:260px;}
+.product-list li .dvControlGrig .unavaiable{line-height:20px;text-align:left;}
+.product-list li .dvControlGrig .discount{margin:3px 20px 0 0;}
+.product-list .product-list{clear:both;}
+
+.product-list .buyInPage{clear:none;float:left;}
+.product-list .buyInPage .amount-in-cart{border:1px solid #C9C9C9;float:none;height:23px;line-height:23px;margin:40px 0 4px 2px;text-align:center;width:32px;}
+.product-list .buyInPage .btn-add-buy-button-asynchronous{background:url(/arquivos/btComprarBusca.png);display:block;height:40px;margin:0 0 10px;text-indent:-999em;width:150px;}
+.product-list .buyInPage .buy-button-asynchronous{color:#339F64;font-size:14px;}
+
+
+/*Lista gerenciar*/
+.lista-gerenciar #content .mainContent div.conteudo{padding-bottom:20px;clear:both;float:none;width:920px;}
+.lista-gerenciar .giftlist-action{float:right;height:29px;margin:0 0 7px;width:153px;}
+.lista-gerenciar .giftlist-action a{background:url(/arquivos/sprite.png)-487px -28px no-repeat;display:block;font-size:0;height:27px;text-indent:-999em;width:118px;}
+/*Tabela*/
+.lista-gerenciar .giftlist-table{clear:both;margin:0 auto 80px;width:929px;color:#3c3c3c;font-size:14px;}
+/*th*/
+.lista-gerenciar .giftlist-table thead th{background:url(/arquivos/sprite_title.png) no-repeat 0 0;color:#656565;font-size:12px;font-weight:normal;height:30px;padding:0 0 0 12px;text-align:left;vertical-align:middle;}
+.lista-gerenciar .giftlist-table .giftlist-header-name{background-position:0 -315px;width:384px;text-align:center;color:#000;}
+.lista-gerenciar .giftlist-table .giftlist-header-action{background-position: -395px -315px;text-align:center;color:#000;}
+/*td*/
+.lista-gerenciar .giftlist-table tbody td{border-bottom:1px solid #e3e4ee;height:85px;vertical-align:middle;}
+.lista-gerenciar .giftlist-table tbody td a{color:#000;display:block;height:28px;line-height:28px;text-align:center;} 
+.lista-gerenciar .giftlist-table tbody td.giftlist-body-name{padding:0 0 0 20px;}
+.lista-gerenciar .giftlist-table tbody td.giftlist-body-name a{color:#3c3c3c;display:inline;}
+
+.lista-gerenciar .giftlist-table tbody td.giftlist-body-action,
+.lista-gerenciar .giftlist-table tbody td.giftlist-body-action-gerenciar,
+.lista-gerenciar .giftlist-table tbody td.giftlist-body-action-visualizar{width:80px;float:left;padding:0 10px;}
+
+.lista-gerenciar .giftlist-table tbody td.giftlist-body-action a,
+.lista-gerenciar .giftlist-table tbody td.giftlist-body-action-gerenciar a,
+.lista-gerenciar .giftlist-table tbody td.giftlist-body-action-visualizar a{background:url(/arquivos/sprite.png) no-repeat;width:80px;height:24px;text-indent:-9000px;font-size:0;margin-top:30px;*margin-top:0;}
+
+/*Alterar*/
+.lista-gerenciar .giftlist-table tbody td.giftlist-body-action{padding-left:87px;}
+.lista-gerenciar .giftlist-table tbody td.giftlist-body-action a{background-position: -173px -113px;display:none;}
+/*Enviar para um amigo*/
+.lista-gerenciar .giftlist-table tbody td.giftlist-body-action-sendfriend{/*width:165px;*/width:25px; float:left;padding:0 10px;}
+.lista-gerenciar .giftlist-table tbody td.giftlist-body-action-sendfriend a{display:none;background:url(/arquivos/sprite.png) no-repeat 0 -142px;width:165px;height:24px;text-indent:-9000px;font-size:0;margin-top: 30px;*margin-top:0;}
+/*Gerenciar*/
+.lista-gerenciar .giftlist-table tbody td.giftlist-body-action-gerenciar a{background-position: -256px -113px;}
+/*Visualizar*/
+.lista-gerenciar .giftlist-table tbody td.giftlist-body-action-visualizar a{background-position: -339px -113px;}
+
+.lista-gerenciar .giftlist-body-action-gerenciar{text-align:left;width:290px !important;}
+
+
+/*Indique para um amigo*/
+/*Controle Oculto*/
+.controleAmigo{visibility:hidden;position:absolute;left:-5000px;}
+.lista-gerenciar #TB_title{background:url( "/arquivos/sprite_title.png") repeat-x 2px -200px;height:15px;padding:5px 10px;width:380px;}
+.lista-gerenciar #TB_ajaxWindowTitle{font-size:14px;font-weight:bold;padding:0 15px;color:#444;}
+.lista-gerenciar #TB_closeWindowButton{position:absolute;top:-16px;*top:0;right:8px;}
+.lista-gerenciar #refer-a-friend-form-gift-list{clear:both;padding:5px;width:auto;margin:0 15px;}
+.lista-gerenciar #refer-a-friend-form-gift-list input[type="text"]{width:151px;height:18px;border:1px solid #777;line-height:16px;}
+.lista-gerenciar #refer-a-friend-form-gift-list label{color:#3c3c3c;line-height:16px;font-weight:bold;padding:3px;display:block;}
+.lista-gerenciar #refer-a-friend-form-gift-list legend{color:#961313;line-height:15px;font-weight:bold;padding:3px;display:block;font-size:11px;}
+.lista-gerenciar #refer-a-friend-form-gift-list textarea{width:314px;height:60px;border:1px solid #777;line-height:16px;}
+.lista-gerenciar #refer-a-friend-form-gift-list span {display:block;}
+.lista-gerenciar #TB_ajaxContent{width:auto !important;display:table;}
+/*Pessoa*/
+.lista-gerenciar #fldYourData{float:left;}
+/*Amigo*/
+.lista-gerenciar #fldFriendsData{float:left;margin-left:10px;}
+.lista-gerenciar #fldMessage{clear:both;}
+/*Botao*/
+.lista-gerenciar #btnEnviar{margin:5px 118px 0 118px;background:url("/arquivos/sprite.png") no-repeat -350px 0;width:83px;height:28px;border:0 none;text-indent:-9000px;font-size:0;}
+/*Oculto*/
+.lista-gerenciar #div-title,
+.lista-gerenciar #btnAdicionarAmigos,
+.lista-gerenciar #btnCancelar{display:none;}
+
+.lista-gerenciar .giftlistdetails {float:left;padding:0 0 24px;width:430px;}
+.lista-gerenciar .giftlistdetails li{clear:both;color:#7D7D7D;font-size:12px;height:20px;}
+.lista-gerenciar .giftlistdetails li .titulo{display:block;float:left; font-weight:bold;width:145px;}
+.lista-gerenciar .giftlistdetails li .texto{float:left;}
+.lista-gerenciar .giftlistdetails li.gifted{color:#249859;font-size:15px;font-weight:bold;padding:0 0 15px;display:none;}
+.lista-gerenciar .giftlistdetails li.gifted .titulo{width:160px;}
+.lista-gerenciar .giftlistsku-action{clear:both;padding:0;}
+.lista-gerenciar .giftlistsku-action li{height:30px;}
+.lista-gerenciar .giftlistsku-action li a{color:#FFF;display:block;height:28px;line-height:28px;text-align:center;}
+.lista-gerenciar .giftlistsku-action li.giftlistsku-action-add a,
+.lista-gerenciar .giftlistsku-action li.giftlistsku-action-alter a{background:url(/arquivos/sprite.png) no-repeat;}
+.lista-gerenciar .giftlistsku-action li.giftlistsku-action-add a{background-position: -167px -142px;width: 196px;text-indent: -999em;}
+.lista-gerenciar .giftlistsku-action li.giftlistsku-action-alter a{width: 197px;background-position: -362px -142px;text-indent: -999em;}
+
+.lista-gerenciar .giftlistsku-action li.giftlistsku-action-exit a{background:url(/arquivos/btAlterarLista.png) left top no-repeat;width:81px;display:none;}
+.lista-gerenciar .giftlist-credit,
+.lista-gerenciar .giftlist-debit{display:none;color:#7D7D7D;clear:both;font-size:14px;padding:0 0 12px;font-weight:bold;}
+.lista-gerenciar .giftlist-debit{padding:0 0 30px 0;}
+.lista-gerenciar .giftlistsku-table{clear:both;margin:0 0 10px;width:850px;}
+.lista-gerenciar .giftlistsku-table thead th{background:url(/arquivos/sprite_title.png) no-repeat;color:#656565;font-size:12px;font-weight:normal;height:30px;text-align:center;vertical-align:middle;}
+.lista-gerenciar .giftlistsku-table thead th.giftlistsku-header-image{text-align:center;width:130px;background-position:0 -413px}
+.lista-gerenciar .giftlistsku-table thead th.giftlistsku-header-product{padding:0 12px;text-align:left;width:362px;background-position:-130px -413px;}
+.lista-gerenciar .giftlistsku-table thead th.giftlistsku-header-status{width:102px;background-position:-515px -413px;}
+.lista-gerenciar .giftlistsku-table thead th.giftlistsku-header-qtde{width:46px;background-position:-617px -413px;}
+.lista-gerenciar .giftlistsku-table thead th.giftlistsku-header-value{width:102px;background-position:-515px -413px;}
+.lista-gerenciar .giftlistsku-table thead th.giftlistsku-header-remove{width:84px;background-position:-844px -413px;}
+.lista-gerenciar .giftlistsku-table thead th.giftlistsku-header-send{display:none;background-position:-844px -413px;}
+.lista-gerenciar .giftlistsku-header-who,
+.lista-gerenciar .giftlistsku-body-who {display:none;}
+
+.lista-gerenciar .giftlistsku-table td{border-bottom:1px solid #E8E8E8;color:#A6A6A6;padding:15px 0;text-align:center;vertical-align:middle;}
+.lista-gerenciar .giftlistsku-table td a{color:#A6A6A6;text-decoration:underline;}
+.lista-gerenciar .giftlistsku-table td.giftlistsku-body-product{padding:0 0 0 12px;text-align:left;}
+.lista-gerenciar .giftlist-remove-sku{margin:0 0 80px 657px;}
+.lista-gerenciar .giftlist-remove-sku .help {display:none;}
+.lista-gerenciar .giftlist-remove-sku input{background:url(/arquivos/sprite.png) -365px -142px no-repeat;border:0;display:block;height:26px;margin-top:4px;padding:0;*padding-top:26px;text-indent:-9999em;width:194px;}
+.lista-gerenciar .giftlistsku-body-message {display:none;}
+
+/*Lista prateleira*/
+.lista-prateleira .conteudo{float:none;}
+.lista-prateleira h4{color:#faa71b;font-size:25px;padding:0 0 20px;}
+.lista-prateleira .giftlistdetails{width:100%;}
+.lista-prateleira .giftlistdetails {float:left;height:130px;width:430px;}
+.lista-prateleira .giftlistdetails li{clear:both;color:#7D7D7D;font-size:12px;height:20px;}
+.lista-prateleira .giftlistdetails li .titulo{display:block;float:left; font-weight:bold;width:145px;}
+.lista-prateleira .giftlistdetails li .texto{float:left;}
+.lista-prateleira .giftlistdetails li.gifted{color:#249859;font-size:15px;font-weight:bold;padding:0 0 15px;display:none;}
+.lista-prateleira .giftlistdetails li.gifted .titulo{width:160px;}
+/*Produto*/
+.lista-prateleira .lista{clear:both;}
+.lista-prateleira .lista h2{background:none;float:left;padding:5px 40px 5px 40px;width: 65%;}
+.lista-prateleira .lista h2 a{color: #737373 !important;font-size:12px;}
+.lista-prateleira .lista li{display:table;margin:25px 5px;padding:5px;}
+.lista-prateleira .productImage{float:left;}
+.lista-prateleira .rating-produto{float:left;margin:0 0 0 40px;}
+.lista-prateleira .brand{float:left;width:70%;padding:5px 20px;}
+.lista-prateleira .data{width:71.5%;float:left;padding:5px 40px;position:relative;}
+.lista-prateleira .price{float:left;}
+.lista-prateleira .view{position:absolute;right:0;top:-32px;}
+/*Botao*/
+.lista-prateleira .botaoDetalhes{margin:2px 0;}
+.lista-prateleira .buy-button-normal a{background:url(/arquivos/sprite.png) -618px 0 no-repeat;width:161px;height:42px;display:block;text-indent:-9000px;font-size:0;}
+
+/*Oculto*/
+.lista-prateleira .message, .lista-prateleira .info{display:none;}
+
+/* Visualizar Lista - Novo Layout */
+body.lista-prateleira .batch-buy-bottom,
+body.lista-prateleira .batch-buy-header{background:#E5E5E5;border-radius:7px;display: block;padding: 9px 15px;line-height:18px;position:relative;min-height:43px;}
+body.lista-prateleira .batch-buy-bottom dl,
+body.lista-prateleira .batch-buy-header dl{clear:both;}
+body.lista-prateleira .batch-buy-bottom dl>*,
+body.lista-prateleira .batch-buy-header dl>*{float:left;}
+body.lista-prateleira .batch-buy-bottom dd,
+body.lista-prateleira .batch-buy-header dd{margin-left:5px;font-weight:bold;}
+body.lista-prateleira .btn-batch-buy{background:url("/arquivos/list_checkout_201x42.png") #A3D343;width:201px;height:42px;display:block;position:absolute;top:9px;right:15px;text-indent:-9999pc;}
+body.lista-prateleira div.lista li{border-bottom:1px solid #CCC;}
+body.lista-prateleira div.lista fieldset label{display:none;}
+body.lista-prateleira div.lista div:first-child{float:left;padding:65px 8px 0 8px;}
