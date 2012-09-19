@@ -1357,3 +1357,6 @@ body.carrinho #TB_iframeContent{background:#efefef; height:330px !important;}
 .telTop{position:absolute; border-bottom:2px solid #FAA71B; border-top:2px solid #FAA71B; letter-spacing:2px; right:211px; top:31px;}
 .telTop h4{color:#FAA71B; text-align:center; display:block; padding:1px; font-size:13px;}
 .telTop h4 span{display:block;}
+
+.carrinho .header{border-bottom:1px solid #E3E4EE;height:113px;}
+.carrinho #LoginWrapper.loginmsg, .carrinho #divMenuUsuario #cesta-compras, .carrinho .searchWrapper{display:none;}

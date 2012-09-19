@@ -291,10 +291,12 @@ ul.rating li {display:block;height: 25px;}
 
 .avaliacao .opt {clear:both;}
 .rating-avalie-wrapper {margin-top:10px;}
-.avaliacao #opcoes-avalie {padding-top:10px;}
+.avaliacao #opcoes-avalie {padding-top:10px;width:160px;}
 .avaliacao #opcoes-avalie p {display:none;}
+.avaliacao #opcoes-avalie input{float:left;clear:both;}
+.avaliacao #opcoes-avalie label{float:left;}
 .avaliacao #opcoes-avalie label,
-.avaliacao #opcoes-avalie input {margin:3px 0;}
+.avaliacao #opcoes-avalie input {margin:3px 10px 3px 0;*margin:0 10px 0 0;}
 .avaliacao .avalie-produto {float:left;margin-left:150px;width:160px;}
 /*Overlay*/
 #publishUserReview .footer{position:fixed; z-index:100; top:0px; left:0px; height:100%; width:100%; background:#000; opacity:.4;  filter:alpha(opacity=40); -moz-opacity:0.4; margin:0;}
